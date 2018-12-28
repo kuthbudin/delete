@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+{% for item in all_data %}
+    <tr><td>{{ item.name }}</td><td>{{ item.email }}</td><td>{{ item.contact }}</td></tr>
+{% endfor %}
+</table>
+</body>
+</html>
